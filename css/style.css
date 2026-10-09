@@ -1,0 +1,86 @@
+/*Seletor universal*/
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*TAG's*/
+
+body {
+    font-family: 'Pixelify Sans', monospace;
+    font-size: 16px;
+
+    width: 100vw;
+    max-width: 100vw;
+    height: 100dvh;         
+    max-height: 100dvh;
+    overflow: hidden;
+    display: flex;           
+    flex-direction: column;  
+}
+
+main {
+    flex: 1;                 
+    background-color: rgb(238, 240, 240);
+    overflow-y: auto;        
+}
+
+footer {
+    background-image: linear-gradient(to right, rgb(108, 81, 81), rgb(89, 127, 139));
+    color: white;
+    padding: 20px;
+}
+
+/*Classes*/
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(to right, rgb(108, 81, 81), rgb(89, 127, 139));
+
+}
+
+/*ID's*/
+
+#container-cv {
+    margin-left: 50px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#container-cv, a {
+    text-decoration: none;
+    color: rgb(189, 189, 189);
+    font-size: 20   px;
+}
+
+#downloadIcon {
+    width: 90px;
+}
+
+#titulo {
+    color: aliceblue;
+    margin-left: auto;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+#configIcon {
+    margin-right: 50px;
+    margin-left: auto;
+    width: 90px;
+    height: 90px;
+}
+
+#soundIcon {
+    display: flex;
+    margin-left: auto;
+    width: 90px;
+    height: 90px;
+}
+
+
